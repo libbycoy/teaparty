@@ -1,0 +1,116 @@
+.tea-description {
+
+}
+
+.about-us {
+
+}
+
+.stockists {
+
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.c-navigation__list {
+    display: inline-block;
+    margin: 0;
+}
+
+.main-nav {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    background-color: #fff;
+  }
+
+.navlist {
+    list-style: none;
+}
+
+footer {
+/*    margin-left:100; */
+    padding:10;
+}
+
+#wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+    display:flex;
+    justify-content:center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#tea-wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+    display:flex;
+    justify-content:center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#main-wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+    display:flex;
+    justify-content:center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main {
+  background-color: grey;
+  padding: 30px;
+  height: 500px;
+  width: 800px;
+  margin: 20px;
+}
+
+#left {
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  display:flex;
+  justify-content:center;
+}
+
+#right {
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  display:flex;
+  justify-content:center;
+}
+
+.section1 {
+  background-color: grey;
+  padding: 30px;
+  height: 500px;
+  margin: 20px;
+}
+
+.aboutus {
+  background-color: grey;
+  padding: 30px;
+  height: 500px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#about-right {
+  float: right;
+}
+
+#wrapper div {
+    -webkit-flex:1;
+    flex:1;
+    text-align: center;
+    border:none;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
