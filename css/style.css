@@ -1,53 +1,81 @@
 @import 'https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans';
 
-body {
-  }
+@import 'https://fonts.googleapis.com/css?family=Raleway:900';
 
 .border {
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      width: 100%;
-      height: 100%;
-      border-right: 30px solid #fff;
-      border-left: 30px solid #fff;
-      background-color: #f6f6f0;
-      z-index: -20;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: -20;
   }
 
-.tea-description {
-
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: -100;
 }
 
 .welcome {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
-/*img {
-  float: left;
-  padding-left: 20px;
-}*/
-
-.about-us {
-
-}
 .text-underline-02 {
-    border-bottom: 8px solid rgba(209, 230, 223, 0.7);
-    font-family: inherit;
-    /*position: relative;*/
-    top: -19px;
-    left: 10px;
-    width: 30px;
-    z-index: -2;
-  }
+  border-bottom: 8px solid rgba(209, 230, 223, 0.7);
+  font-family: inherit;
+  /*position: relative;*/
+  top: -19px;
+  left: 10px;
+  width: 30px;
+  z-index: -2;
+}
 
 .underline {
-  width: 130px;
-  height: 10px;
+  width: 580px;
+  height: 20px;
   background-color: rgba(209, 230, 223, 0.7);
-  margin-left: 570px;
+  margin-left: 350px;
   margin-right: auto;
-  margin-top: -15px;
+  margin-top: -25px;
+}
+
+.description {
+  width: 580px;
+  height: 110px;
+  margin-left: 380px;
+  margin-right: auto;
+  margin-top: 150px;
+  padding: 30px;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #666666;
+  line-height: 30px;
+}
+
+.first-section {
+  margin-top: 50px;
+  font-family: 'Quattrocento', serif;
+  font-size: 14px;
+  color: #666666;
+  line-height: 20px;
+  width: 200px;
+}
+
+.otherdescription {
+  width: 580px;
+  height: 110px;
+  background-color: rgba(209, 230, 223, 0.8);
+  margin-left: 380px;
+  margin-right: auto;
+  margin-top: 60px;
+  padding: 30px;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #666666;
+  line-height: 30px;
 }
 
 #welcome {
@@ -56,32 +84,42 @@ body {
 
 .linkedtitles {
   margin-bottom: -30px;
-
+  height: 200px;
+  padding-bottom: 40px;
 }
 
 #chateau {
-  color: white;
-  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #666666;
+  font-size: 100px;
   position: static;
   z-index: 200;
-  margin-left: 700px;
+  margin-left: 150px;
+  padding-top: 220px;
 }
 
 .title {
-  font-family: 'Quattrocento', serif;
-  width: 300px;
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   text-align: center;
-  padding-top: 120px;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 400;
   letter-spacing: .1em;
-  color: #939393;
-  /*padding-bottom: 40px;*/*/
+  color: #666666;
 }
+
+#sidoler {
+  padding-top: 100px;
+}
+
+#etat {
+  padding-top: 100px;
+}
+
 .container {
     position: relative;
     margin-bottom: 30px;
+    height: 300px;
 }
 
 .image {
@@ -100,26 +138,30 @@ body {
 }
 
 .grow:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        transition: transform .2s ease-in-out;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: transform .2s ease-in-out;
 }
 
 .imageOne {
-      z-index: 0;
-      margin-left: 300px;
-  }
+  z-index: 0;
+  margin-left: 300px;
+}
 
-  .imageTwo {
-      z-index: 10;
-      margin-left: 200px;
-  }
+.imageTwo {
+  z-index: 10;
+  margin-left: 200px;
+}
 
 .titles {
   text-decoration: none;
+  color: #666666;
+}
+
+a {
   font-family: 'Quattrocento Sans', sans-serif;
-  color: #bdbdbd;
+  font-size: 20px;
 }
 
 .maintitles {
@@ -151,8 +193,9 @@ nav li {
 }
 
 .navdisplay {
-    display: inline-block;
-    margin: 0;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Quattrocento', serif;
 }
 
 .main-nav {
@@ -161,11 +204,12 @@ nav li {
   z-index: 20;
   text-align: center;
   background-color: #fff;
-  }
+  font-family: 'Quattrocento', serif;
+}
 
 .navlist {
-    list-style: none;
-    background-color: white;
+  list-style: none;
+  background-color: white;
 }
 
 footer {
@@ -175,30 +219,30 @@ footer {
 }
 
 #wrapper{
-    display:-webkit-flex;
-    -webkit-justify-content:center;
-    display:flex;
-    justify-content:center;
-    margin-left: 50px;
-    margin-right: 50px;
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  display:flex;
+  justify-content:center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #tea-wrapper{
-    display:-webkit-flex;
-    -webkit-justify-content:center;
-    display:flex;
-    justify-content:center;
-    margin-left: 300px;
-    margin-right: 300px;
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  display:flex;
+  justify-content:center;
+  margin-left: 180px;
+  margin-right: 100px;
 }
 
 #main-wrapper{
-    display:-webkit-flex;
-    -webkit-justify-content:center;
-    display:flex;
-    justify-content:center;
-    margin-left: 100px;
-    margin-right: 100px;
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  display:flex;
+  justify-content:center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .main {
@@ -223,20 +267,51 @@ footer {
   justify-content:center;
 }
 
-.section1 {
-  background-color: grey;
+.teawrapper {
   padding: 30px;
   height: 500px;
   margin: 20px;
 }
 
+.section1 {
+  float: left;
+}
+
+.section2 {
+  position: static;
+  float: right;
+}
+
+.subtitles {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgb(209, 230, 223);
+}
+
+.dissapear {
+  width: 500px;
+}
+
+.dissapear-width {
+  width: 500px;
+  margin-right: 60px;
+}
+
 .aboutus {
   background-color: grey;
-  padding-top: 30px;
+  padding-top: 100px;
   height: 500px;
-  margin-left: 200px;
+  margin-left: 0px;
   margin-right: 200px;
   margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
 }
 
 #about-right {
@@ -244,11 +319,11 @@ footer {
 }
 
 #wrapper div {
-    -webkit-flex:1;
-    flex:1;
-    text-align: center;
-    border:none;
-    padding: 3px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  -webkit-flex:1;
+  flex:1;
+  text-align: center;
+  border:none;
+  padding: 3px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
