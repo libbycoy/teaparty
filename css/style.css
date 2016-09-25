@@ -44,15 +44,58 @@
 
 .description {
   width: 580px;
-  height: 110px;
+  height: 210px;
   margin-left: 380px;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: 300px;
   padding: 30px;
   font-family: 'Quattrocento', serif;
   font-size: 20px;
   color: #666666;
   line-height: 30px;
+}
+
+.description-two {
+  width: 580px;
+  height: 210px;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: auto;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgb(209, 230, 223);
+}
+
+.description-three {
+  width: 580px;
+  height: 210px;
+  margin-left: 380px;
+  margin-top: 200px;
+  margin-right: auto;
+  padding: 30px;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #666666;
+  line-height: 30px;
+}
+
+.findout-more {
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  background-color: #666;
+  color: white;
+  font-size: 20px;
+  line-height: 100px;
+  font-family: 'Quattrocento', serif;
+  margin-left: 330px;
+  margin-top: 200px;
+}
+
+.findout-more:hover {
+  background-color: #E5C4C9;
 }
 
 .first-section {
@@ -119,7 +162,7 @@
 .container {
     position: relative;
     margin-bottom: 30px;
-    height: 300px;
+    height: 1900px;
 }
 
 .image {
@@ -177,11 +220,23 @@ a {
 }
 
 li {
+  background-color: #E5C4C9;
+  color: white;
+}
+
+.titles:hover {
   background-color: white;
+  color: #E5C4C9;
+}
+
+li:hover {
+  background-color: white;
+  color: #E5C4C9;
+
 }
 
 nav {
-  height: 80px;
+  height: 81px;
   background-color: white;
 }
 
@@ -203,13 +258,13 @@ nav li {
   position: fixed;
   z-index: 20;
   text-align: center;
-  background-color: #fff;
+  background-color: #E5C4C9;
   font-family: 'Quattrocento', serif;
 }
 
 .navlist {
   list-style: none;
-  background-color: white;
+  background-color: #E5C4C9;
 }
 
 footer {
@@ -225,6 +280,15 @@ footer {
   justify-content:center;
   margin-left: 50px;
   margin-right: 50px;
+  font-family: 'Quattrocento', serif;
+  color: #E5C4C9;
+}
+
+.footertop {
+  color: #666;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
 }
 
 #tea-wrapper{
@@ -298,6 +362,10 @@ footer {
   margin-right: 60px;
 }
 
+.dissapear-widthtwo {
+  width: 600px;
+}
+
 .aboutus {
   background-color: grey;
   padding-top: 100px;
@@ -322,7 +390,7 @@ footer {
   -webkit-flex:1;
   flex:1;
   text-align: center;
-  border:none;
+  border: none;
   padding: 3px;
   padding-top: 100px;
   padding-bottom: 100px;

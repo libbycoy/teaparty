@@ -2,8 +2,12 @@
 $( document ).ready( function() {
 
   $(function() {
-      $('.dissapear').hide();
+      $('.tea-description').hide();
       $('div .description').hide();
+      $('div .description-two').hide();
+      $('div .findout-more').hide();
+      $('.main-nav').hide();
+      $('div .description-three').hide();
   });
 
   $('#particles').particleground({
@@ -15,14 +19,16 @@ $( document ).ready( function() {
     $('html, body').animate({
         scrollTop: $("#welcome").offset().top
     }, 800);
-      $('.dissapear').fadeIn(1000);
-      $('.dissapear').addClass('appeared');
+      $('.tea-description').fadeIn(1000);
+      $('.tea-description').addClass('appeared');
     });
 
   $("#about-title").click(function() {
     $('html, body').animate({
         scrollTop: $("#aboutus").offset().top
     }, 800);
+    $('.tea-description').fadeIn(1000);
+    $('.tea-description').addClass('appeared');
     });
 
   $("#stockist-title").click(function() {
@@ -31,22 +37,49 @@ $( document ).ready( function() {
     }, 800);
     });
 
+    $(".findout-more").click( function() {
+      $('.main-nav').slideDown("slow", function() {
+      });
+    });
+
     $(window).scroll(function() {
 
-    if ($(this).scrollTop() > 70) {
+    if ($(this).scrollTop() > 260) {
       $('div .description').fadeIn(1000);
      }
     else {
       $('div .description').fadeOut(1000);
      }
 
-     if ($('.dissapear').hasClass('appeared') === false) {
+     if ($(this).scrollTop() > 500) {
+       $('div .description-two').fadeIn(1000);
+      }
+     else {
+       $('div .description-two').fadeOut(1000);
+      }
 
-       if ($(this).scrollTop() > 70) {
-        $('.dissapear').fadeIn(1000);
+      if ($(this).scrollTop() > 1000) {
+        $('div .description-three').fadeIn(1000);
        }
       else {
-        $('.dissapear').fadeOut(1000);
+        $('div .description-three').fadeOut(1000);
+       }
+
+
+      if ($(this).scrollTop() > 1300) {
+        $('div .findout-more').fadeIn(1000);
+       }
+      else {
+        $('div .findout-more').fadeOut(1000);
+       }
+
+     if ($('.tea-description').hasClass('appeared') === false) {
+
+       if ($(this).scrollTop() > 1700) {
+        $('.tea-description').fadeIn(1000);
+       }
+      else {
+        $('.tea-description').fadeOut(1000);
        }
      } else {
        return;
