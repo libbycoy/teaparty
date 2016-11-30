@@ -1,6 +1,6 @@
 # Blog experiment
 
-The following is a blog experiment which I created at [General Assembly](http://generalassembl.ly/).
+The following is a blog experiment which I created at [General Assembly](https://generalassemb.ly/).
 
 This is one of the first experiments I did at General Assembly and uses the [Particle Ground](https://github.com/jnicol/particleground) plugin. I experimented a lot with css transitions and scrolling.
 
